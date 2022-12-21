@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+  height: 80vh;
+}
+
+.image-qr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 0 20px;
+}
+
+.img-qr-code {
+  margin: 0 0 15px 0;
+  border-radius: 10px !important;
+  width: 350px;
+  height: 350px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1 {
+  width: 335px;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.description p {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  width: 290px;
+  color: hsl(220, 15%, 55%);
+}
+
+@media only screen and (max-width: 1440px) {
+  .card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    height: 55vh;
+  }
+
+  .img-qr-code {
+    margin: 0 0 15px 0;
+    border-radius: 10px !important;
+    width: 350px;
+    height: 350px;
+  }
+
+  .title h1 {
+    width: 335px;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+  }
+
+  .description p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    width: 290px;
+    color: hsl(220, 15%, 55%);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    height: 42vh;
+  }
+
+  .img-qr-code {
+    margin: 0 0 15px 0;
+    border-radius: 10px !important;
+    width: 250px;
+    height: 250px;
+  }
+
+  .title h1 {
+    width: 230px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+  }
+
+  .description p {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    width: 230px;
+    color: hsl(220, 15%, 55%);
+  }
+}
