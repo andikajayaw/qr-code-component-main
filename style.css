@@ -113,10 +113,12 @@ h1 {
   font-weight: 700;
   font-size: 1.3rem;
   color: hsl(218, 44%, 22%);
+  margin-bottom: 10px;
 }
 
 p {
   font-weight: 400;
   font-size: 15px;
   color: hsl(220, 15%, 55%);
+  margin-top: 10px;
 }
